@@ -90,7 +90,7 @@ export default function TobokaEditor(props: TobokaEditorProps) {
   const yDoc = useMemo(() => new Y.Doc(), []);
   const provider = useMemo(() => {
     return new WebsocketProvider(
-      `ws://${hostname || "localhost"}:1234`,
+      `wss://${hostname || "localhost"}:1234`,
       "",
       yDoc
     );
