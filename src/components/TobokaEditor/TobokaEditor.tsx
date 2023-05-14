@@ -125,9 +125,9 @@ export default function TobokaEditor(props: TobokaEditorProps) {
   }, [editor]);
 
   return (
-    <div className="h-screen bg-slate-300 p-20">
+    <div className="h-screen bg-slate-300 p-10 md:p-20">
       <Slate value={value} onChange={setValue} editor={editor}>
-        <DecoratedTobokaEditable className="h-full w-full rounded-lg bg-white p-10 placeholder:absolute" />
+        <DecoratedTobokaEditable className="h-full w-full rounded-lg bg-white p-4 md:p-10 placeholder:absolute" />
       </Slate>
     </div>
   );
