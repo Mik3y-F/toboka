@@ -2,6 +2,8 @@
 
 Toboka is a real-time collaboration text editor. It's built using a modern tech stack including Next.js, Slatejs, WebSockets, and Tailwind CSS. The editor allows users to collaborate on documents in real-time, with changes reflected instantly across all connected users.
 
+**Demo:** [https://toboka.vercel.app](https://toboka.vercel.app/)
+
 ## Table of Contents
 
 1. [Features](#features)
@@ -14,9 +16,7 @@ Toboka is a real-time collaboration text editor. It's built using a modern tech 
 ## Features
 
 - Real-time collaboration: Multiple users can edit a document simultaneously. Changes made by any user are instantly visible to others.
-- Rich Text Formatting: Built on top of Slatejs, it supports rich text formatting like bold, italic, underline, and more.
-- User Authentication: Secure user registration and login functionality.
-- Document Versioning: Track changes over time and revert to previous versions if necessary.
+- Live User Cursors - a visual cue of where each user is working or focusing, helping to prevent editing conflicts and improve communication.
 - Responsive Design: Tailwind CSS is used for a mobile-first, responsive design.
 
 ## Requirements
