@@ -1,28 +1,71 @@
-# Create T3 App
+# Toboka: Real-Time Collaboration Text Editor
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Toboka is a real-time collaboration text editor. It's built using a modern tech stack including Next.js, Slatejs, WebSockets, and Tailwind CSS. The editor allows users to collaborate on documents in real-time, with changes reflected instantly across all connected users.
 
-## What's next? How do I make an app with this?
+## Table of Contents
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+1. [Features](#features)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Development](#development)
+6. [License](#license)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Features
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- Real-time collaboration: Multiple users can edit a document simultaneously. Changes made by any user are instantly visible to others.
+- Rich Text Formatting: Built on top of Slatejs, it supports rich text formatting like bold, italic, underline, and more.
+- User Authentication: Secure user registration and login functionality.
+- Document Versioning: Track changes over time and revert to previous versions if necessary.
+- Responsive Design: Tailwind CSS is used for a mobile-first, responsive design.
 
-## Learn More
+## Requirements
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- Node.js v14.0.0 or later
+- npm v6.14.4 or later
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Installation
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Before starting the installation, ensure that you have Node.js and npm installed on your machine.
 
-## How do I deploy this?
+1. Clone the repository:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+    ```bash
+    git clone https://github.com/Mik3y-F/toboka.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd toboka
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+Once you've installed the dependencies, you can run the application locally using:
+
+```bash
+npm run dev
+```
+
+This starts the Next.js development server, and you can access the application at `http://localhost:3000`.
+
+## Development
+
+To make changes to the application, follow the installation and usage instructions to get the application running locally.
+
+You can make changes to the source code in the `src` directory. We use ESLint for linting and Prettier for code formatting. Make sure to run these before committing your changes:
+
+```bash
+npm run lint
+```
+
+## License
+
+Toboka is licensed under the MIT license. See [LICENSE](LICENSE) for the full license text.
