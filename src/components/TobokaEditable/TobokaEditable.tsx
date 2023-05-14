@@ -33,7 +33,7 @@ export function TobokaEditable({
 
   return (
     <Editable
-      placeholder="Write Something ..."
+      placeholder="Toboka Editor 🍀 - Start typing ... (Note:- Open 2 tabs to see the magic 🪄)"
       {...props}
       renderElement={renderElement}
       renderLeaf={renderLeaf}
